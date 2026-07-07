@@ -6,8 +6,6 @@
 #include <string>
 #include <vector>
 
-// The lidar point cloud contains point coordinates (X, Y, Z), intensity (I), and ring (R).
-// It may also contain distance (D), azimuth (A), and timestamp (T).
 
 class PointCloud {
 public:
@@ -80,4 +78,4 @@ inline void FillPointCloud(
     }
 }
 
-#endif  // POINTCLOUD_H_
+#endif

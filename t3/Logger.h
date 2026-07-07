@@ -1,8 +1,6 @@
 #ifndef LOGGER_H_
 #define LOGGER_H_
 
-// This is for emulation only
-// Don't change it
 
 #include <iostream>
 #include <string>
@@ -16,4 +14,4 @@ public:
 	}
 };
 
-#endif // LOGGER_H_
+#endif
